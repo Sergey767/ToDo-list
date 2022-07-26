@@ -20,13 +20,5 @@ class UsersTableSeeder extends Seeder
         ]);
 
         \App\Models\User::factory()->count(50)->create();
-
-        //factory(User::class, 50)->create();
-        // factory(User::class)->create([
-        //     'name' => 'Test User',
-        //     'email' => 'user@example.com'
-        // ]);
-
-        // factory(User::class, 50)->create();
     }
 }
